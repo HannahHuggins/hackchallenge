@@ -69,9 +69,5 @@ postCode: "C0D3 J03",
 hygeneRating: 2
 }
 
-businesses.push(business1);
-businesses.push(business2);
-businesses.push(business3);
-businesses.push(business4);
-businesses.push(business5);
+
 }
