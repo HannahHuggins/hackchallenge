@@ -5,7 +5,7 @@ function sendRequest() {
     var value = $('#search-bar').val();
 
     $.ajax({
-        url: '', // todo
+        url: 'http://localhost:8080/api/get-restaurants', // todo
         method: 'post',
         data: value,
         success: function(response) {
