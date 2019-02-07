@@ -1,6 +1,0 @@
-(function(){
-    console.log({"businessName":"Test Business","postCode":"P05T CD3","ratingValue":"Awaiting Inspection","Notes":"ratingValue needs to be a string as it can be either a number or 'Awaiting Inspection' from what I've seen"}
-
-    )
- })()
- 
