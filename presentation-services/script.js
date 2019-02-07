@@ -1,5 +1,19 @@
 var businesses = [];
 
+
+function sendRequest() {
+    var value = $('#search-bar').val();
+
+    $.ajax({
+        url: '', // todo
+        method: 'post',
+        data: value,
+        success: function(response) {
+            businesses = Json.parse(response);
+        }
+    });
+}
+
 $(function() {
     initialiseBusinesses();
     var htmlText = loadData();
