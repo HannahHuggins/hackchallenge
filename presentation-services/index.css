@@ -1,0 +1,12 @@
+body {
+    background-color: #cccccc;
+   }
+
+@font-face {
+    font-family: "random";
+    src: url("../presentation-services/fonts/NORMT___.TTF");
+}
+
+h1 {
+    font-family: "random"
+}
