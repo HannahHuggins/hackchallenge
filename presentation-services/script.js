@@ -15,18 +15,10 @@ function sendRequest() {
 }
 
 $(function() {
-    initialiseBusinesses();
+    //initialiseBusinesses();
     var htmlText = loadData();
     document.getElementById("test-para").innerHTML = loadData(htmlText);
 });
-
-// function onInit(){
-//     initialiseBusinesses();
-//     var htmlText = loadData();
-//     document.getElementById("test-para").innerHTML = displayData(htmlText);
-
-//     console.log('TEST', $('#test-para'));
-// }
 
 function loadData(){
     var output = "";
@@ -34,7 +26,6 @@ function loadData(){
     businesses.forEach(bus => {
         if(bus.businessName != undefined){
             output += displayData(bus);
-            // output++;
         }
     });
     return output;
